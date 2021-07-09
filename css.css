@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 95vh;
+    width: 95vw;
+    border: 2px solid green;
+    margin: 0 auto;
+}
+
+#nav-bar {
+    background-color: gray;
+    width: 100%;
+    margin: 0 auto;
+    height: 10%;
+}
+
+#nav-bar p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+#job-card {
+    width: 30%;
+    height: 30%;
+    margin-left: 40%;
+    margin-top: 10%;
+    color: white;
+    background-color: rgb(68, 68, 73);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+#job-card h2 {
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+#job-card input {
+    display: block;
+    margin-top: 3%;
+}
+
+#company-name {
+    margin-bottom: 7%;
+}
+
+#submit-job {
+    width: 60%;
+}
+
+.invisible {
+    visibility: hidden;
+    position: absolute;
+}
+
+.visible {
+    visibility: visible;
+    position: absolute;
+}
+
+#show-job-card {
+    margin-left: 50%;
+    height: 40%;
+    width: 15%;
+}
+
+#jobs-ul {
+    border: 2px solid blue;
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.job p {
+    display: inline;
+}
+
+#jobs-list div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+#jobs-list div p {
+    margin-right: 1%;
+}

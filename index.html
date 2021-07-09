@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Job Applications</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="nav-bar">
+            <p>Job Applications</p>
+            <input type="submit" value="Add a job" id="show-job-card">
+        </div>
+
+
+        <div id="job-card" class="invisible">
+            <h2 id="job-adder">Job Adder</h2>
+            <form>
+                <label for="job-title">Job title:</label>
+                <input type="text" id="job-title" placeholder="Enter the job title">
+
+                <label for="company-name">Company name: </label>
+                <input type="text" id="company-name" placeholder="Enter company name">
+
+                <input type="submit" value="Submit" id="submit-job">
+            </form>
+        </div>
+
+        <div id="jobs-list">
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
